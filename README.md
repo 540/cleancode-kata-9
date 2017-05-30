@@ -38,3 +38,18 @@ Fase 2 - Nuevos requerimientos
 
 Un número es Fizz si es divisible por 3 o si incluye un 3 en el número
 Un número es Buzz si es divisible por 5 o si incluye un 5 en el número
+
+Pasos iniciales:
+- git clone https://github.com/540/cleancode-kata-9.git
+- cd cleancode-kata-9/
+- git checkout --track origin/initial_state 
+- composer install
+- Configurar tests
+    - Edit configurations
+    - Añadir (+) PHP Unit
+    - Test Runner -> Defined in the configuration file
+    - use alternative configuration file -> Llave derecha
+    - phpunit library -> use composer autoloader -> path to script -> vendor/autoload
+    - Test Runner -> Default configuration file -> phpunit.xml
+- Test Run
+
